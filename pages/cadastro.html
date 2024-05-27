@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="cadastro.html">Cadastro</a></li>
+                <li><a href="inicial.html">Inicial</a></li>
+                <li><a href="perfil.html">Perfil</a></li>
+                <li><a href="agendamento.html">Agendamento</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Cadastro</h2>
+        <form action="#">
+            <h3>Cadastro Personal</h3>
+            <label for="personal-name">Nome:</label>
+            <input type="text" id="personal-name" name="personal-name" required>
+            <label for="personal-cert">Certificação:</label>
+            <input type="text" id="personal-cert" name="personal-cert" required>
+            <button type="submit">Cadastrar Personal</button>
+        </form>
+        <form action="#">
+            <h3>Cadastro Aluno</h3>
+            <label for="student-name">Nome:</label>
+            <input type="text" id="student-name" name="student-name" required>
+            <label for="student-age">Idade:</label>
+            <input type="number" id="student-age" name="student-age" required>
+            <button type="submit">Cadastrar Aluno</button>
+        </form>
+    </main>
+</body>
+</html>

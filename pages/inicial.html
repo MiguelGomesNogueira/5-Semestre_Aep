@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Inicial</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="cadastro.html">Cadastro</a></li>
+                <li><a href="inicial.html">Inicial</a></li>
+                <li><a href="perfil.html">Perfil</a></li>
+                <li><a href="agendamento.html">Agendamento</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Agendar Treino</h2>
+        <form action="agendamento.html">
+            <label for="personal">Personal Disponível:</label>
+            <select id="personal" name="personal">
+                <option value="Maria dos Santos">Maria dos Santos</option>
+                <option value="João da Silva">João da Silva</option>
+            </select>
+            <label for="date">Data:</label>
+            <input type="date" id="date" name="date" required>
+            <label for="time">Horário:</label>
+            <input type="time" id="time" name="time" required>
+            <label for="location">Local:</label>
+            <input type="text" id="location" name="location" required>
+            <button type="submit">Agendar</button>
+        </form>
+    </main>
+</body>
+</html>
